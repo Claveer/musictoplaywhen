@@ -1,0 +1,96 @@
+body {
+background-color: lightblue;
+background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1451515373753409565/pu/img/l1ISAD7jHQuLiq9Q.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-family:'Silkscreen';
+    padding: 40px;
+}
+p {
+    text-align: center;
+    color: white;
+    font-family: 'Silkscreen';
+    
+}
+ul {
+    font-family: 'Silkscreen';
+    align-content: center;
+    transition: ease-in-out;
+    font-size: 40px;
+    margin-bottom: 200px;
+}
+div .happy:hover{
+    text-decoration: underline;
+    transform: scale(0.9);
+    
+}
+body:has(div .happy:hover) {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01073865290819.5d61d475f0072.jpg);
+    transition: ease-in-out;
+    transition: ease;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+img {
+ height: 40px;
+ width: 50px;
+}
+body:has(div .sad:hover) {
+    background-image: url(https://i.pinimg.com/originals/00/43/04/0043044fd8e3c55c584ddaf0c9c134e2.gif);
+    transition: ease-in-out;
+    transition: ease;
+}
+body:has(div .inspired:hover) {
+    background-image: url(https://images4.alphacoders.com/100/1008904.png);
+    transition: ease-in-out;
+    transition: ease;
+}
+body:has(div .hopeful:hover) {
+    background-image: url(https://wallpapers.com/images/hd/aesthetic-paradise-pixel-art-xzpuodyofxok69x2-xzpuodyofxok69x2.jpg);
+    transition: ease-in-out;
+    transition: ease;
+}
+body:has(div .successful:hover) {
+    background-image: url(https://wallpaperaccess.com/full/2122578.jpg);
+    transition: ease-in-out;
+    transition: ease;
+}
+body:has(div .pushing:hover) {
+    background-image: url(https://images6.alphacoders.com/715/thumb-1920-715677.png);
+    transition: ease-in-out;
+    transition: ease;
+}
+div .sad:hover{
+    text-decoration: underline;
+    transform: scale(0.9);
+    
+}
+div .inspired:hover{
+    text-decoration: underline;
+    transform: scale(0.9);
+    
+}
+div .hopeful:hover{
+    text-decoration: underline;
+    transform: scale(0.9);
+    
+}
+div .successful:hover{
+    text-decoration: underline;
+    transform: scale(0.9);
+    
+}
+div .pushing:hover{
+    text-decoration: underline;
+    transform: scale(0.9);
+    
+}
+div {
+    transition: ease-in-out;
+}
